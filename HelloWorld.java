@@ -1,4 +1,5 @@
 import java.util.Random;
+
 public class HelloWorld {
 
 
@@ -26,9 +27,15 @@ public class HelloWorld {
      public static void main(String[] args) {
           System.err.println("hello word");
 
-          HelloWorld world = new HelloWorld("Raafay");
-          System.out.println(world.getAge());
-          System.out.println(world.getAge());
+          // HelloWorld world = new HelloWorld("Raafay");
+          // System.out.println(world.getAge());
+          // System.out.println(world.getAge());
 
+
+          Car minivan = new Car(27, "minivan");
+
+          System.out.println(minivan.getId());
+          System.out.println(minivan.getName());
+          System.out.println(minivan.getNumberOfOwners());
      }
 }
